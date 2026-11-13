@@ -1,0 +1,11 @@
+title = input("Enter even title: ")
+year = input("Enter year: ")
+month = input("Enter month: ")
+day = input("Enter day: ")
+
+print("\nBasic Output:")
+print("Event:", title.upper())
+print("Date:", year + "-" + month + "-" + day)
+print("Year:", year)
+print("Month:", month)
+print("Day:", day)
